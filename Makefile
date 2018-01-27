@@ -7,7 +7,7 @@
 # of patent rights can be found in the PATENTS file in the same directory.
 #
 
-LD_FLAGS=-L../faiss -lfaiss -lopenblas
+LD_FLAGS=-L. -lfaiss -lopenblas
 CXX = c++
 
 CXXFLAGS = -pthread

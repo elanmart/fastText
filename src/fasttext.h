@@ -28,8 +28,8 @@
 #include "utils.h"
 #include "vector.h"
 
-#include "../../faiss/AutoTune.h"
-#include "../../faiss/index_io.h"
+#include "faiss/AutoTune.h"
+#include "faiss/index_io.h"
 
 #pragma message("getVector is being deprecated and replaced by getWordVector.")
 
